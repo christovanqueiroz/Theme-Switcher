@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: #292C35;
+}
+
+.switcher {
+    display: flex;
+    background: #000000;
+    height: 2rem;
+    width: 240px;
+    height: 105px;
+    border-radius: 60px;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 0;
+}
+
+.switcher div {
+    height: 96px;
+    width: 96px;
+    cursor: pointer
+}
+
+.switcher div img {
+    height: 100%;
+}
+
+.button {
+    height: 96px;
+    width: 96px;
+    background-color: #F1F1F1;
+    z-index: 1;
+    position: absolute;
+    left: 51%;
+    border-radius: 96px;
+}
+
+.light {
+    background-color: #F1F1F1;
+}
+
+.hide {
+    visibility: hidden;
+}
