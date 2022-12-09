@@ -13,7 +13,6 @@ body {
 .switcher {
     display: flex;
     background: #000000;
-    height: 2rem;
     width: 240px;
     height: 105px;
     border-radius: 60px;
